@@ -6,6 +6,15 @@
 
 > by Dadykov Artemy.
 
+## Features
+
+- `float` datatype;
+- conditions `if/then/else`;
+- functions `def`;
+- functions recursive `def rec`;
+- print function `print`;
+- variables.
+
 ## Examples
 
 ### Example with function
@@ -40,3 +49,15 @@ def rec fact(n) {
 }
 print(fact(5))
 ```
+
+## Structure
+```bash
+src
+├── ast.fs
+├── main.fs
+└── parser.fs
+```
+
+## How to run
+
+> change `codeSample` in `main.fs`.
